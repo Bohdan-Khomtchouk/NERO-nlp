@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+NERO/Core.py
+NERO/__init__.py
+NERO/annotation_results.txt
+NERO/corpus.py
+NERO_nlp.egg-info/PKG-INFO
+NERO_nlp.egg-info/SOURCES.txt
+NERO_nlp.egg-info/dependency_links.txt
+NERO_nlp.egg-info/top_level.txt
