@@ -60,7 +60,7 @@ class Corpus:
 
     def _load_data(self, _path):
         """
-        Read the raw corpus and returning a pandas dataframe.
+        Reading the raw corpus and returning a pandas dataframe.
         """
     
         df = pd.read_csv(

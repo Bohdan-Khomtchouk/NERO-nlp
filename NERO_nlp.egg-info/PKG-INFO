@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: NERO-nlp
-Version: 0.0.7
+Version: 0.0.8
 Summary: A biomedical Named Entity (Recognition) Ontology
 Home-page: UNKNOWN
 Author: Bohdan Khomtchouk
@@ -19,8 +19,9 @@ Description: NERO is a biomedical Named Entity (Recognition) Ontology.
         Sample usage:
         
         
+        	In [3]: from NERO.corpus import corpus
         
-        	# access basic dataframe attributes directly
+        	# Directly access basic dataframe attributes
         	In [4]: corpus.columns 
         
         	In [5]: corpus.shape
@@ -28,16 +29,15 @@ Description: NERO is a biomedical Named Entity (Recognition) Ontology.
         	# access to the whole dataframe
         	In [6]: corpus._data
         
-        	# Having directly access to columns by calling then as an attribute
+        	# Having directly access to columns by calling them as an attribute
         	In [7]: corpus.semantic_class_actionType
         
         	In [8]:                                                                                                                                                                                                     
         
-        	# Using documentation in order to gain more insight into
-        	# functionality of the attribute.
+        	# Using documentation 
         	In [8]: corpus.procset_topic_bd.__doc__                                                                                                                                                        
         
-        	# other generic and multipurpose functionalions
+        	# other generic and multipurpose functions
         	In [9]: corpus.procset_topic_bd('aut')                                                                                                                                                               
         
         	In [10]: corpus.plot_protein_domain_entity() 

@@ -9,7 +9,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="NERO-nlp",
-    version="0.0.7",
+    version="0.0.8",
     include_package_data=True,
     author="Bohdan Khomtchouk",
     author_email="bohdan@uchicago.edu",

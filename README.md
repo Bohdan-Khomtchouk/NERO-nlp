@@ -13,7 +13,9 @@ Using `NERO-nlp`, we annotated a large biomedical corpus to enable a broad spect
 
 
 
-	# access basic dataframe attributes directly
+	In [3]: from NERO.corpus import corpus
+
+	# Directly access basic dataframe attributes
 	In [4]: corpus.columns 
 
 	In [5]: corpus.shape
@@ -21,16 +23,15 @@ Using `NERO-nlp`, we annotated a large biomedical corpus to enable a broad spect
 	# access to the whole dataframe
 	In [6]: corpus._data
 
-	# Having directly access to columns by calling then as an attribute
+	# Having directly access to columns by calling them as an attribute
 	In [7]: corpus.semantic_class_actionType
 
 	In [8]:                                                                                                                                                                                                     
 
-	# Using documentation in order to gain more insight into
-	# functionality of the attribute.
+	# Using documentation 
 	In [8]: corpus.procset_topic_bd.__doc__                                                                                                                                                        
 
-	# other generic and multipurpose functionalions
+	# other generic and multipurpose functions
 	In [9]: corpus.procset_topic_bd('aut')                                                                                                                                                               
 
 	In [10]: corpus.plot_protein_domain_entity() 
